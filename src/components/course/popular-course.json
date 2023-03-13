@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_popular_courses",
+  "info": {
+    "displayName": "PopularCourse"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "default": "Popular Courses",
+      "required": true
+    },
+    "courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::course.course"
+    }
+  }
+}

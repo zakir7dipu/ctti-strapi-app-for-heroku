@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "SiteSetting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HotLinkNumber": {
+      "type": "string",
+      "required": true,
+      "default": "+880 295 31087"
+    },
+    "HotLinkEmail": {
+      "type": "email",
+      "default": "info@bizzsol.com.bd",
+      "required": true
+    },
+    "Address": {
+      "type": "text",
+      "required": true,
+      "default": "City centre 90/1, Level-25 Type-D2, Motijheel C/A, Dhaka-1000, Bangladesh."
+    },
+    "Facebook": {
+      "type": "string"
+    },
+    "Twitter": {
+      "type": "string"
+    },
+    "LinkedIn": {
+      "type": "string"
+    },
+    "Youtube": {
+      "type": "string"
+    },
+    "Instagram": {
+      "type": "string"
+    },
+    "MapLocation": {
+      "type": "text"
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

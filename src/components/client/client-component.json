@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_client_client_components",
+  "info": {
+    "displayName": "ClientComponent"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "CountDown": {
+      "type": "integer",
+      "required": true
+    },
+    "Text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

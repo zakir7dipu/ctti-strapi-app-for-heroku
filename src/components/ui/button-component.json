@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_button_components",
+  "info": {
+    "displayName": "ButtonComponent"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "footets",
+  "info": {
+    "singularName": "footet",
+    "pluralName": "footets",
+    "displayName": "Footet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FooterText": {
+      "type": "text",
+      "required": true
+    },
+    "FooterMenu": {
+      "displayName": "FooterMenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "secondary-menu.footer-menu",
+      "required": true
+    }
+  }
+}

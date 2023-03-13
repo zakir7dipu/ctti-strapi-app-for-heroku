@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_secondary_menu_footer_menus",
+  "info": {
+    "displayName": "FooterMenu"
+  },
+  "options": {},
+  "attributes": {
+    "MenuTitel": {
+      "type": "string",
+      "required": true
+    },
+    "MenuLink": {
+      "displayName": "MenuLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-link",
+      "required": true
+    }
+  }
+}

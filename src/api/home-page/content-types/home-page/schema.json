@@ -1,0 +1,96 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Hero": {
+      "displayName": "HeroComponent",
+      "type": "component",
+      "repeatable": true,
+      "component": "carousel.hero-component",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "WorkTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Popular Courses",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "AboutUs": {
+      "displayName": "AboutUsComponent",
+      "type": "component",
+      "repeatable": false,
+      "component": "aboutus.about-us-component",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Client": {
+      "displayName": "ClientComponent",
+      "type": "component",
+      "repeatable": true,
+      "component": "client.client-component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "EventTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Upcoming Events",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "QuoteTitle": {
+      "type": "string",
+      "required": true,
+      "default": "What our student saying",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Popular": {
+      "displayName": "PopularCourse",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "course.popular-course"
+    }
+  }
+}

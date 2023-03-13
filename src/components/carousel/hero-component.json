@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_carousel_hero_components",
+  "info": {
+    "displayName": "HeroComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Slogan": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Button": {
+      "displayName": "ButtonComponent",
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button-component"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "VideoID": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
